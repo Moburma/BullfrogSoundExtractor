@@ -76,7 +76,7 @@ class Program
             Console.WriteLine("");
             Console.WriteLine("Arguments: BullFrogSoundExtractor.exe [Input file] [Game]");
             Console.WriteLine("");
-            Console.WriteLine("e.g. BullFrogSoundExtractor.exe SOUND.DAT swars");
+            Console.WriteLine("e.g. BullFrogSoundExtractor.exe SOUND.DAT sw");
             Console.WriteLine("");
             Console.WriteLine("Supported games:");
             Console.WriteLine("dk - Dungeon Keeper");
