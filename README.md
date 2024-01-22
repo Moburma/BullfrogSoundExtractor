@@ -35,7 +35,7 @@ To extract the .wav files from Theme Hospital
 
 .DAT files that have high and low quality sample sets (Syndicate Wars, Gene Wars) will have two export directories created, "Hi" and "Lo" to store them. Games that didn't use this feature (Magic Carpets, Dungeon Keeper, Theme Hospital) will just extract to a directory called "extracted".
 
-The most common version of the file is the most simple one, used by Dungeon Keeper and Theme Hospital. If in doubt with a game not listed above, try "th" as the game code. This is needed for e.g. the SYNCREDS.DAT file in Syndicate Wars, as opposed to the main SW SOUND.DAT file that needs the sw argument.
+The most common version of the file is the most simple one, used by Dungeon Keeper and Theme Hospital. If in doubt with a game not listed above, try "th" as the game code. This is needed for e.g. the SYNCREDS.DAT file in Syndicate Wars, as opposed to the main SW SOUND.DAT file that needs the sw argument. If no game code is used as an argument, the tool will run in Theme Hospital mode.
 
 The Creation demo is not supported yet, it uses a more complex variant of the Syndicate Wars file format. This isn't hard to support, but it's not in place yet.
-
+There are also several other early demos that use weird and wonderful variants of the .DAT format. These likely won't work with this tool, but try runinng in TH mode for the best chance of success.
